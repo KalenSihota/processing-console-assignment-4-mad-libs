@@ -27,15 +27,15 @@ void setup() {
   String Adjective[] = loadStrings("data/adjectives.txt");
   int adjectivenumber = int(random(Adjective.length-1));
   
-  println("I met a genius on the train today");
+  println("I met a", Noun[nounnumber], "on the", Noun2[nounnumbertwo], "today");
   println("about 6 years old,"); 
-  println("he sat beside me");
-  println("and as the train "); 
-  println("ran down along the coast");
-  println("we came to the ocean"); 
-  println("and then he looked at me");
-  println("and said ");
-  println("it's not pretty. ");
+  println("he", Verb[verbnumber], "beside me");
+  println("and as the", Noun3[nounnumberthree], ""); 
+  println("ran down along the", Noun4[nounnumberfour], "");
+  println("we came to the", Noun5[nounnumberfive], ""); 
+  println("and then he", Verb2[verbnumbertwo], "at me");
+  println("and", Verb3[verbnumberthree], "");
+  println("it's not", Adjective[adjectivenumber], ". ");
 }
 
 

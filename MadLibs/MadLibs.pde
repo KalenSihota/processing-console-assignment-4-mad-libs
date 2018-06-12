@@ -8,17 +8,26 @@
 
 void setup() {
 
-  //load the poem
-  //load the verb file, then noun file, then adjective file
-
-  //loop through each line of the poem (for-loop)
-  //pick random noun from list
-  //check if current line has <noun> tag in it
-  //replace noun tag with the chosen noun
-  //print current lines into console
-  //repeat with verbs and adjective]
+  String Noun[] = loadStrings("data/nouns.txt");
+  int nounnumber = int(random(Noun.length-1));
+  String Noun2[] = loadStrings("data/nouns.txt");
+  int nounnumbertwo = int(random(Noun.length-1));
+  String Noun3[] = loadStrings("data/nouns.txt");
+  int nounnumberthree = int(random(Noun.length-1));
+  String Noun4[] = loadStrings("data/nouns.txt");
+  int nounnumberfour = int(random(Noun.length-1));
+  String Noun5[] = loadStrings("data/nouns.txt");
+  int nounnumberfive = int(random(Noun.length-1));
+  String Verb[] = loadStrings("data/verbs.txt");
+  int verbnumber = int(random(Verb.length-1));
+  String Verb2[] = loadStrings("data/verbs.txt");
+  int verbnumbertwo = int(random(Verb.length-1));
+  String Verb3[] = loadStrings("data/verbs.txt");
+  int verbnumberthree = int(random(Verb.length-1));
+  String Adjective[] = loadStrings("data/adjectives.txt");
+  int adjectivenumber = int(random(Adjective.length-1));
   
-   println("I met a genius on the train today");
+  println("I met a genius on the train today");
   println("about 6 years old,"); 
   println("he sat beside me");
   println("and as the train "); 
@@ -28,7 +37,7 @@ void setup() {
   println("and said ");
   println("it's not pretty. ");
 }
-}
+
 
 void draw() {
 }

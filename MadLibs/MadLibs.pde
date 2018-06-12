@@ -17,7 +17,17 @@ void setup() {
   //replace noun tag with the chosen noun
   //print current lines into console
   //repeat with verbs and adjective]
-
+  
+   println("I met a genius on the train today");
+  println("about 6 years old,"); 
+  println("he sat beside me");
+  println("and as the train "); 
+  println("ran down along the coast");
+  println("we came to the ocean"); 
+  println("and then he looked at me");
+  println("and said ");
+  println("it's not pretty. ");
+}
 }
 
 void draw() {
